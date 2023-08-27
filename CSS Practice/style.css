@@ -1,0 +1,96 @@
+ body{ 
+   background-color:rgba(205, 246, 254, 0.712) ;
+   /* display: flex; */
+   justify-content: center;
+   /* align-items: center; */
+  } 
+ hr{
+      border-style: none;
+      border-top-style: dotted;
+      border-color:rgb(68, 201, 234);
+      border-width: 5px;
+      width: 5%;
+
+    }
+
+.circular{
+  border-radius: 50%;
+  height: auto;
+  width: 120px;
+}
+h1{
+  color:yellow;
+}
+h2{
+  color: lightyellow;
+}
+h3{
+  color:bisque;
+}
+.about{
+  color:azure;
+}
+.table-head{
+  color:lime;
+}
+.table-body{
+  color:lightcyan;
+}
+.skills{
+  color:rgb(197, 230, 255);
+}
+/* colourful 🌈🌈🌈links */
+
+a:link{
+color: rgba(27, 135, 115, 0.937);
+text-decoration: none;
+}
+a:visited{
+  color:aqua ;
+}
+a:hover {
+  color:gold;
+  text-decoration: underline;
+  font-weight: bold;
+}
+a:active{
+  background-color: rgba(44, 215, 35, 0.734);
+  font-style: italic;
+}
+/* FOR DYNAMIC PAGES */
+
+ .hobbies{ 
+  color:rgba(111, 241, 255, 0.955);
+    font-style: italic;
+    padding-left: 30px;
+    
+ }
+ .list{
+  color: blueviolet;
+  line-height: 2;
+ }
+ .contact{
+  color: rgb(17, 170, 119);
+  font-style: italic;
+ }
+ body h2{
+  color: darkcyan;
+ }
+ body p{
+  color:darkblue;
+  font-size: 20px;
+ }
+ center h3{
+  color: rgb(19, 204, 204);
+  font-size: 20px;
+ }
+ .btn{
+  background-color: rgb(143, 242, 244);
+ }
+
+ /* Using media queries */
+ @media only screen and (max-width:600px){
+  body{
+    background-color:rgba(205, 246, 254, 0.712);
+  }
+ }
